@@ -1,0 +1,163 @@
+ul.g_meny{
+    list-style-type: none;      /* убрать маркеры mаркированного спимка */
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background: #0DE003; 
+
+}
+ul.g_meny li{
+       float: left; /* обтекание слева, чтобы столбец превратить в строку */
+}
+ul.g_meny li a{
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    text-decoration: none; /* убрать подчеркование */
+    padding: 14px 16px;
+}
+ul.g_meny .active{
+    background: #042174;
+}
+ul.g_meny li a:hover:not(.active){  /* :hover псевдокласс который определяет поведение ебьекта при указании, применяеться ко.   not не использовать к active */
+  background:#6F7A98;  
+}
+
+.text_css{
+    font-family:Arial;
+    font-size:70px;
+    text-transform:uppercase;
+    color: #FFFFFF;
+    text-align:center;
+    text-shadow:-7px 0px 10px #55565B;
+    text-decoration: none;
+
+}
+
+header{
+    background-color: #B3FFFF;
+    color: #004DFF;
+    padding: 5px;
+    background-image: url(../image/fon_sapka.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;    
+}
+
+
+.blok1{
+    font-family: Arial;
+    font-size:12px;
+    line-height: 18px;
+    width: 70%;
+    height: 100px;
+    margin: 13px auto;
+    background-image: url(../image/nie_teh.jpg); 
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding: 100px;
+    padding-left: 200px;
+}
+
+.blok2{
+    font-family: Arial;
+    font-size:14px;
+    line-height: 20px;
+    width: 50%;
+    padding: 30px;  
+
+    margin: 13px auto;
+    background-image: url(../image/chelovechek_kraski_19952.jpg); 
+    background-size: 300px 250px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 330px;  
+}
+
+
+
+.blok_a{
+    font-family: Arial;
+    font-size:12px;
+    line-height: 22px;
+    width: 70%;
+    margin: 13px auto;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 200px;
+}
+
+.pm{
+    font-family: courier new; /* шрифт печатной машинки */}
+
+.t2_a{
+    font-family: Arial;
+    font-size:24px;
+    line-height: 30px;
+    padding-left: 50px;
+    border: 4px dotted grey; 
+}
+
+
+.td_1{    /* Создает перечеркнутый текст */
+    font-weight: bolder;
+    font-size:30px;
+    text-decoration: line-through;
+}
+
+
+.td_2{    /* Линия проходит над текстом */
+    font-weight: bolder;
+    font-size:30px;
+    text-decoration: overline;
+}
+
+.td_3{    /* Устанавливает подчеркнутый текст */
+    font-weight: bolder;
+    font-size:30px;
+    text-decoration: underline;
+}
+
+
+
+
+
+footer p{
+    font-family: Arial;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+
+
+
+tbody{
+   padding-left: 200px; 
+}
+
+.body_ft{/* боковое повторение картинки Форм.ткста */
+    background-image: url(../image/imege_text.png); 
+    background-repeat: repeat-y;
+    background-position: top left;
+    padding-right:100px;
+    }
+
+
+
+.table_sapka{ /* Шапка таблицы */
+    background: #82B3B4;
+}
+
+
+table{
+    padding-left: 288px;
+}
+
+td{
+    font-family: Arial;
+    font-size: 16px;
+    text-indent:5px;
+    width: 400px;
+    background: #B3E5E6;
+    padding: 15px;
+}
